@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Warehouse Inventory Practice App</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
@@ -35,8 +39,10 @@
     --ok: #5fd39a; --ok-bg: #173226; --warn: #f2c35b; --warn-bg: #3a2d10; --bad: #ff8b7e; --bad-bg: #3d1a17;
     color-scheme: dark;
   }
+  [hidden] { display: none !important; }
   * { box-sizing: border-box; }
   body {
+    margin: 0;
     background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
     padding-block: 20px 40px;
     padding-left: max(16px, env(safe-area-inset-left, 0px));
@@ -112,6 +118,8 @@
   .foot { margin-top: 20px; font-size: 12.5px; color: var(--muted); }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header class="topbar">
@@ -468,3 +476,5 @@
   render();
 })();
 </script>
+</body>
+</html>
