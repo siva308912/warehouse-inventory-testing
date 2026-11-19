@@ -29,4 +29,5 @@ Black box testing, Boundary Value Analysis, Equivalence Partitioning, Negative t
 
 ## How to run
 **Live demo:** https://siva308912.github.io/warehouse-inventory-testing/app/
+
 Download `app/index.html`, open it in Chrome. Login: `admin` / `admin@1234`.
